@@ -11,6 +11,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { SearchboxComponent } from './components/searchbox/searchbox.component';
+import { InstitutionsComponent } from './components/institutions/institutions.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { SearchboxComponent } from './components/searchbox/searchbox.component';
     FooterComponent,
     HomeComponent,
     AboutComponent,
-    SearchboxComponent
+    SearchboxComponent,
+    InstitutionsComponent
   ],
   imports: [
     BrowserModule,
