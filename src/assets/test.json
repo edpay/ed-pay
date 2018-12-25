@@ -1,0 +1,43 @@
+[{
+    "id": 1,
+    "name": "basveshavara1",
+    "contactNumber": "9620704498",
+    "description": "Basavakalyan Engineering College has been Established with the unique ... in all spheres of activities, we at Basavakalyan Educational Trust, have the vision",
+    "address": "1st Floor, Opposite Neelambika Girls College, Ambedkar Circle, Basavakalyan,, Bidar., Karnataka 585327",
+    "emailId": "Basva@gmail.com1",
+    "websiteLink": "betbkec.com",
+    "imageLink1": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Administration_Building_-_Carnegie_Institution_of_Washington.JPG",
+    "imageLink2": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/United_States_Institute_of_Peace.jpg/220px-United_States_Institute_of_Peace.jpg",
+    "imageLink3": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Stowers_Institute_Kansas_City_MO.jpg/400px-Stowers_Institute_Kansas_City_MO.jpg",
+    "courses": "CSE",
+    "type": "Engineering"
+  },
+  {
+    "id": 2,
+    "name": "basveshavara2",
+    "contactNumber": "9620704498",
+    "description": "Basavakalyan Engineering College has been Established with the unique ... in all spheres of activities, we at Basavakalyan Educational Trust, have the vision",
+    "address": "1st Floor, Opposite Neelambika Girls College, Ambedkar Circle, Basavakalyan,, Bidar., Karnataka 585327",
+    "emailId": "Basva@gmail.com2",
+    "websiteLink": "betbkec.com",
+    "imageLink1": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/United_States_Institute_of_Peace.jpg/220px-United_States_Institute_of_Peace.jpg",
+    "imageLink2": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8d/McKnight_Brain_Institute.JPG/300px-McKnight_Brain_Institute.JPG",
+    "imageLink3": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/201807/Jio_Institute.png?UjKf4gwOguECLwcKu7XdgosEDJGcmLun",
+    "courses": "ECE",
+    "type": "Engineering"
+  },
+  {
+    "id": 3,
+    "name": "basveshavara1",
+    "contactNumber": "9620704498",
+    "description": "Basavakalyan Engineering College has been Established with the unique ... in all spheres of activities, we at Basavakalyan Educational Trust, have the vision",
+    "address": "1st Floor, Opposite Neelambika Girls College, Ambedkar Circle, Basavakalyan,, Bidar., Karnataka 585327",
+    "emailId": "Basva@gmail.com1",
+    "websiteLink": "betbkec.com",
+    "imageLink1": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Stowers_Institute_Kansas_City_MO.jpg/400px-Stowers_Institute_Kansas_City_MO.jpg",
+    "imageLink2": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8d/McKnight_Brain_Institute.JPG/300px-McKnight_Brain_Institute.JPG",
+    "imageLink3": "https://www.cam.ac.uk/sites/www.cam.ac.uk/files/styles/content-580x288/public/news/news/capella.jpg?itok=sUAhBb1Q",
+    "courses": "CSE",
+    "type": "Engineering"
+  }
+]

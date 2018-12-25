@@ -12,6 +12,9 @@ import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { SearchboxComponent } from './components/searchbox/searchbox.component';
 import { InstitutionsComponent } from './components/institutions/institutions.component';
+import { InstitutionsService } from './services/institutions.service';
+import { InstituteComponent } from './components/institute/institute.component';
+import { ApplyFormComponent } from './components/apply-form/apply-form.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,9 @@ import { InstitutionsComponent } from './components/institutions/institutions.co
     HomeComponent,
     AboutComponent,
     SearchboxComponent,
-    InstitutionsComponent
+    InstitutionsComponent,
+    InstituteComponent,
+    ApplyFormComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +35,7 @@ import { InstitutionsComponent } from './components/institutions/institutions.co
     HttpClientModule,
     MDBBootstrapModule.forRoot()
   ],
-  providers: [],
+  providers: [ InstitutionsService ],
   bootstrap: [AppComponent],
   schemas: [NO_ERRORS_SCHEMA ]
 })

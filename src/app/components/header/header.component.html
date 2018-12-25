@@ -1,31 +1,36 @@
-<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark cyan darken-1 fixed-top scrolling-navbar">
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark cyan darken-1 fixed-top scrolling-navbar ie-nav" [containerInside]="false">
     <mdb-navbar-brand>
-      <a routerLink='/' class="navbar-brand">
-        <!-- <img src="" height="30" class="d-inline-block align-top" alt="Ed Pay"> -->
-        EdPay
-      </a>
+      <a class="logo navbar-brand" routerLink='/'><strong>EdPay</strong></a>
     </mdb-navbar-brand>
     <links>
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link waves-light" routerLink='/' mdbWavesEffect>Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link waves-light" routerLink='/about' mdbWavesEffect>About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link waves-light" routerLink='/institutions' mdbWavesEffect>Institutions</a>
-            </li>
-        </ul>
-        <div class="navbar-nav">
-        <a class="nav-link waves-light white-text " data-toggle="modal" data-target="#basicExample"
-                (click)="frame.show()" mdbWavesEffect>Login</a></div>
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item waves-light" mdbWavesEffect>
+          <a class="nav-link" routerLink='/'>Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item waves-light" routerLinkActive="active" mdbWavesEffect>
+          <a class="nav-link" routerLink='/about'>About <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item waves-light" routerLinkActive="active" mdbWavesEffect>
+          <a class="nav-link" routerLink='/institutions'>Institutions <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item waves-light">
+            <!-- <form class="form-inline waves-light" mdbWavesEffect> -->
+                <!-- <div class="md-form mt-0"> -->
+                    <app-searchbox></app-searchbox>
+                <!-- </div> -->
+            <!-- </form> -->
+      </li>
+      </ul>
+      <ul class="navbar-nav navbar-right">
+        <a class="nav-link waves-light white-text " data-toggle="modal" data-target="#basicExample" (click)="frame.show()"
+          mdbWavesEffect>Login</a>
+      </ul>
     </links>
-</mdb-navbar>
+  </mdb-navbar>
 
 <!-- START Sign In Modal -->
-<div mdbModal #frame="mdbModal" class="modal fade top" id="frameModalTop" tabindex="-1" role="dialog"
-  aria-labelledby="myModalLabel" aria-hidden="true">
+<div mdbModal #frame="mdbModal" class="modal fade top" id="frameModalTop" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
   <div class="modal-dialog" role="document">
     <!--Content-->
     <div class="modal-content form-elegant">
@@ -42,12 +47,12 @@
       <div class="modal-body mx-4">
         <!--Body-->
         <div class="md-form mb-5">
-          <input type="email" id="Form-email1" class="form-control" mdbInputDirective [formControl]="modalFormElegantEmail">
+          <input type="email" id="Form-email1" class="form-control" mdbInputDirective [formControl]="loginFormModalEmail">
           <label data-error="wrong" data-success="right" for="Form-email1">Your email</label>
         </div>
 
         <div class="md-form pb-3">
-          <input type="password" id="Form-pass1" class="form-control" mdbInputDirective [formControl]="modalFormElegantPassword">
+          <input type="password" id="Form-pass1" class="form-control" mdbInputDirective [formControl]="loginFormModalPassword">
           <label data-error="wrong" data-success="right" for="Form-pass1">Your password</label>
           <p class="font-small blue-text d-flex justify-content-end">Forgot
             <a href="#" class="blue-text ml-1"> Password?</a>
@@ -55,7 +60,7 @@
         </div>
 
         <div class="text-center mb-3">
-          <button type="button" mdbBtn  block="true" rounded="true" class="z-depth-1a waves-light cyan darken-1"
+          <button type="button" mdbBtn block="true" rounded="true" class="z-depth-1a waves-light cyan darken-1"
             mdbWavesEffect>Sign in</button>
         </div>
         <!-- <p class="font-small dark-grey-text text-right d-flex justify-content-center mb-3 pt-2"> or Sign in

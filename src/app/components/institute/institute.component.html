@@ -1,0 +1,26 @@
+<p>{{selInstitute.name}}</p>
+<p>{{selInstitute.contactNumber}}</p>
+<p>{{selInstitute.description}}</p>
+<p>{{selInstitute.address}}</p>
+<p>{{selInstitute.emailid}}</p>
+<p>{{selInstitute.websiteLink}}</p>
+<p>{{selInstitute.imageLink}}</p>
+<p>{{selInstitute.type}}</p>
+<p>{{selInstitute.courses}}</p>
+
+<mdb-carousel class="carousel slide carousel-fade" [animation]="'fade'">
+    <mdb-carousel-item>
+      <img class="d-block w-100" [src]="selInstitute.imageLink1" alt="First slide">
+    </mdb-carousel-item>
+    <mdb-carousel-item>
+      <img class="d-block w-100" [src]="selInstitute.imageLink2" alt="Second slide">
+    </mdb-carousel-item>
+    <mdb-carousel-item>
+      <img class="d-block w-100" [src]="selInstitute.imageLink3" alt="Third slide">
+    </mdb-carousel-item>
+  </mdb-carousel>
+  
+  <div class="jumbotron slide">
+    <p class="lead">Courses Hosted</p>
+    <p>{{selInstitute.courses}}</p>
+  </div>
